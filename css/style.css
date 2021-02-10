@@ -2,4 +2,41 @@
 
 body {
     background-color: #0DA8F4;
+    
 }
+
+h1, h4 {
+    text-align: center;
+}
+
+img#ft {
+       position: relative;
+       left: 640px;
+}
+
+div {
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    margin: 0px 300px 0px 300px;
+    padding: 5px;    
+}
+
+div#lc {
+    display: block;
+    border: hidden;
+    margin: 10px 300px 5px 300px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13pt;
+    width: 10px;
+    margin: -25px 50px 10px 40px;;
+}
+
