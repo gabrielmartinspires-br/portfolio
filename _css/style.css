@@ -54,6 +54,12 @@ div#menu a:hover {
     text-decoration: underline; /* aparece o sublinhado da letra no link no menu ao passar o mouse*/
 }
 
+/* Section -Corpo */
+
+section#corpo ul {
+    list-style: none; /* Oculta os marcadores */
+
+}
 
 /* Rodapé */
 
