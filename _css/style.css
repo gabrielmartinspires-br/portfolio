@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(120, 201, 221);
+}
+
+div#interface {
+    
+    width: 900px;
+    height: 787px;
+    background-color: rgb(96, 96, 252);
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,.5);
+    padding: 10px;
+}
+
+/* Formatação do Menu */
+
+div#menu {
+    display: block;
+}
+
+div#menu ul {
+    list-style: none; /* Oculta os marcadores */
+    text-transform: uppercase; /* Todas letra em maiúsculas */
+    position: absolute; /* posiciona o menu "bloco" livremente na página */
+    top: -15px; /* posiciona o menu "bloco" no topo da página */
+    left: 400px; /* posiciona o menu "bloco" da esquerda para direita em 300px na página */
+}
+
+div#menu li {
+    display: inline-block; /* exibe o menu "bloco" numa mesma linha */
+    background-color: #5078cf; /* cor de fundo nos itens do menu */
+    padding: 2px; /* espaçamento dentro dos itens do menu */
+    margin: 0px; /* espaçamento entre os itens do menu */
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s; 
+    transition: background-color 1s; /*demora 1 segundo para mudar de cor ao passar mouse */
+}
+
+div#menu li:hover {
+    background-color: #606060; /*Efeito ao mover o mouse por cima do menu */
+}
+
+div#menu a {
+    color: #000000; /* cor da letra no link no menu */
+    text-decoration: none; /* remove o sublinhado no link no menu */
+}
+
+div#menu a:hover {
+    color: #ffffff; /* muda cor da letra no link no menu ao passar o mouse*/
+    text-decoration: underline; /* aparece o sublinhado da letra no link no menu ao passar o mouse*/
+}
+
+
+/* Rodapé */
+
+footer#rodape {    
+    border-top: 1px solid #606060;
+    position: relative;
+    margin: 155px auto 0px auto;
+	padding: 10px;
+}
+
+footer#rodape p {
+    color: white;
+    border-color: rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+footer#rodape a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer#rodape a:hover {
+    text-decoration: underline;
+}
