@@ -4,9 +4,8 @@ body {
     background-color: rgb(120, 201, 221);
 }
 
-div#interface {
-    
-    width: 900px;
+div#interface {    
+    width: 800px;
     height: 787px;
     background-color: rgb(96, 96, 252);
     margin: -20px auto 0px auto;
