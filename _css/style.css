@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(#2c6da9, #a0c0c5);
+}
+
+.box-container {
+    width: 99%;
+    height: 30px;
+    
+    position: absolute;
+    top: 0px;
+}
+
+.box-content {
+    width: 200px;
+    height: 0;
+    padding-bottom: 5%;
+    
+}
+
+.box-content img {
+    width: 180px;
+    padding: 8px;
+}
+
+div#menu {
+    display: block; /* Para que o menu seja exibido como um bloco para depois configurar o menu flutuante */
+}
+
+div#menu ul {
+    list-style: none; /* Oculta os marcadores */
+    text-transform: uppercase; /* Todas letra em maiúsculas */
+    position: absolute; /* posiciona o menu "bloco" livremente na página */
+    top: -20px; /* posiciona o menu "bloco" no topo da página */
+    right: 90px;/* posiciona o menu "bloco" da esquerda para direita em 300px na página */
+}
+
+div#menu li {
+    display: inline-block; /* exibe o menu "bloco" numa mesma linha */
+    background-color: ; /* cor de fundo nos itens do menu */
+    padding: 10px; /* espaçamento dentro dos itens do menu */
+    margin: 2px; /* espaçamento entre os itens do menu */
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s; 
+    transition: background-color 1s; /*demora 1 segundo para mudar de cor ao passar mouse */
+}
