@@ -47,3 +47,21 @@ div#menu li {
     -ms-transition: background-color 1s; 
     transition: background-color 1s; /*demora 1 segundo para mudar de cor ao passar mouse */
 }
+
+div#menu li:hover {
+    background-color: #a0c0c5; /*Efeito ao mover o mouse por cima do menu */
+}
+
+div#menu h1 {
+    display: none; /* oculta o título do menu no navegador, mas mantém no index */
+}
+
+div#menu a {
+    color: #ffffff; /* cor da letra no link no menu */
+    text-decoration: none; /* remove o sublinhado no link no menu */
+}
+
+div#menu a:hover {
+    color: #ffffff; /* muda cor da letra no link no menu ao passar o mouse*/
+    text-decoration: underline; /* aparece o sublinhado da letra no link no menu ao passar o mouse*/
+}
