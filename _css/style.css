@@ -82,19 +82,33 @@ div#menu a:hover {
 
 section#corpo {
     position: relative;
-    margin: 100px auto 250px auto;
+    margin: 100px auto 25px auto;
 	padding: 10px;
 
 }
 
 section#corpo ul {
-    text-align: left;
+    text-align: center;
     list-style: none; /* Oculta os marcadores */
 }
 
-section#corpo a{
+section#corpo li {
+    border: 2px solid #ffffff;
+    margin: 5px auto 5px auto;
+    padding: 15px;
+}
+
+section#corpo li:hover {
+    background-color: #ffffff;
+}
+
+section#corpo a {
     color: #ffffff;
     text-decoration: none;
+}
+
+section#corpo a:hover {
+    color: blue;
 }
 
 /* Rodapé */
