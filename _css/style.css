@@ -114,6 +114,7 @@ section#corpo li#lk {
 
 section#corpo li:hover {
     background-color: #ffffff;
+    
 }
 
 section#corpo a {
@@ -122,7 +123,7 @@ section#corpo a {
 }
 
 section#corpo a:hover {
-    color:#000000;
+    color:#2c6da9;
     text-decoration: underline;
 }
 
