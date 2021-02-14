@@ -13,6 +13,11 @@ body {
     
 }
 
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
 header#cabecalho div#nome-usuario {
     position: relative;
     text-align: center;
@@ -22,8 +27,8 @@ header#cabecalho div#nome-usuario {
 header#cabecalho h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
-    color: #ffffff;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    color: #a0c0c5;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
     padding: 0px;
     margin-bottom: 0px;
 }
@@ -31,6 +36,7 @@ header#cabecalho h1 {
 header#cabecalho h4 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
     font-size: 15pt;
     padding: 0px;
     margin-top: 0px;
@@ -103,31 +109,28 @@ section#corpo {
     margin-top: 150px;
 }
 
-section#corpo li#lk {
-    
-    border: 1px solid #ffffff;
-    margin: 10px auto 10px auto;
-    padding: 5px;
+section#corpo li {
     list-style: none;
-    text-align: center;
-}
-
-section#corpo li:hover {
-    background-color: #ffffff;
-    
 }
 
 section#corpo a {
+    display: block;
+    position: relative;
+    border: 1px solid #ffffff;
+    margin: 10px 3% 10px auto;
+    padding: 5px;    
+    text-align: center;
+    font-size: 15pt;
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 section#corpo a:hover {
     color:#2c6da9;
+    background-color: #ffffff;
     text-decoration: underline;
+    
 }
-
-
 
 footer#rodape {
     position: relative;
@@ -138,6 +141,7 @@ footer#rodape {
     bottom: -20%;
 }
 
-footer#rodape p {
+footer#rodape p, a {
+    color: #ffffff;
     text-align: center;
 }
