@@ -111,18 +111,21 @@ section#corpo {
 
 section#corpo li {
     list-style: none;
+    cursor: pointer;
 }
 
 section#corpo a {
     display: block;
-    position: relative;
-    border: 1px solid #ffffff;
-    margin: 10px 3% 10px auto;
-    padding: 5px;    
+    position: relative;    
+    margin: 10px 30% 10px 30%;
+    padding: 5px;  
+    color: #ffffff;  
     text-align: center;
     font-size: 15pt;
-    color: #ffffff;
-    text-decoration: none;    
+    text-decoration: none;   
+    background-color: #a0c0c5;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+     
 }
 
 section#corpo a:hover {
@@ -130,6 +133,13 @@ section#corpo a:hover {
     background-color: #ffffff;
     text-decoration: underline;
     
+}
+
+section#corpo a:active {
+    color:#2c6da9;
+    background-color: #ffffff;
+    text-decoration: underline;
+    transform: translate(3px, 3px);
 }
 
 footer#rodape {
