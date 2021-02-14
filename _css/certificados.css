@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+div#cert {
+    position: relative;
+    margin-top: 140px;
+    left: 28%;
+    border: none;
+    overflow: hidden;
+}
+
+div#cert::-webkit-scrollbar {
+    display: none;    
+}
